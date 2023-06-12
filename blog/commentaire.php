@@ -18,7 +18,7 @@
 
         <h1>Mon super blog !</h1>
 
-        <p><a href="index.php">Retour à la liste des billets</a></p>
+        <p><a href="index.php">liste des billets</a></p>
 
   
 
@@ -88,7 +88,7 @@ $donnees = $req->fetch();
 
 <?php
 
-$req->closeCursor(); // Important : on libère le curseur pour la prochaine requête
+$req->closeCursor(); 
 
  
 
