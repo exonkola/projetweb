@@ -20,7 +20,11 @@
 
         <p>Derniers billets du blog :</p>
 
-  
+        <form method="POST">
+	   
+	   <textarea name="billet" placeholder="Votre billet..."></textarea><br />
+	   <input type="submit" value="Poster mon billet" name="submit_billet" />
+	</form>
 
 <?php
 
